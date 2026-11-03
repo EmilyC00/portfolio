@@ -396,7 +396,7 @@
     const vh = innerHeight;
     const isMobile = innerWidth <= 720;
     const line = vh * (isMobile ? 0.55 : 0.2);  
-    const span = vh * (isMobile ? 1.4 : 2.0);  
+    const span = vh * (isMobile ? 3.5 : 2.0);  
     let best = -1, bestP = 0;
 
     steps.forEach((step, i) => {
