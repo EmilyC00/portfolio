@@ -31,7 +31,7 @@
 
   /* Your links. */
   const PROFILE = {
-    email: '104000@siswa.unimas.my',
+    email: 'emilychiam03@gmail.com',
     github: 'https://github.com/EmilyC00',
     linkedin: 'https://www.linkedin.com/in/emily-chaim-ee-wen'
   };
