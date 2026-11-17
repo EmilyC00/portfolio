@@ -1,14 +1,3 @@
-/* =========================================================
-   Emily Chiam portfolio: main.js
-   1  Data (links and projects)          9  Carousel inside a step
-   2  Theme: day / night                10  Screenshot viewer (lightbox)
-   3  Sky: mouse easing                 11  Contact links, copy email
-   4  Sparkles                           -  Music
-   5  Layers that arrive one at a time  12  Header, progress, back to top
-   6  Typing line                        -  Mobile menu
-   7  The staircase of steps            13  Nav highlight
-   8  The scroll line                   14  Year
-   ========================================================= */
 (() => {
   'use strict';
 
@@ -158,7 +147,7 @@
   }
 
  /* =========================================================
-     Sheep: a little bounce when you tap one          ← 插入这里
+     Sheep: a little bounce when you tap one      
      ========================================================= */
   const sheepEls = $$('.sheep');
   sheepEls.forEach((sheep) => {
@@ -396,7 +385,7 @@
     const vh = innerHeight;
     const isMobile = innerWidth <= 720;
     const line = vh * (isMobile ? 0.55 : 0.2);  
-    const span = vh * (isMobile ? 3.5 : 2.0);  
+    const span = vh * (isMobile ? 5.0 : 3.2);  
     let best = -1, bestP = 0;
 
     steps.forEach((step, i) => {
